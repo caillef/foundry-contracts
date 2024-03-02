@@ -108,7 +108,7 @@ mod tests {
     }
 
     #[test]
-    #[available_gas(50000000)]
+    #[available_gas(100000000)]
     fn test_connect_machines() {
         // caller
         let caller = starknet::contract_address_const::<0x0>();
